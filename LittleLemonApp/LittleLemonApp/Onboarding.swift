@@ -12,12 +12,16 @@ import SwiftUI
 public var globalFirstName: String = ""
 public var globalLastName: String = ""
 public var globalEmail: String = ""
+public var globalPhone: String = ""
+
 
 
 struct Onboarding: View {
     @State private var firstName: String = ""
     @State private var lastName: String = ""
     @State private var email: String = ""
+    @State private var phoneNumber: String = ""
+
     
     @State private var showAlert: Bool = false
     //@State private var alertMessage: String = ""
@@ -73,6 +77,7 @@ struct Onboarding: View {
                     UserDefaults.standard.set(lastName, forKey: "globalLastName")
                     UserDefaults.standard.set(email, forKey: "globalEmail")
                     UserDefaults.standard.set(true, forKey: kIsLoggedIn)
+                    UserDefaults.standard.set(email, forKey: "globalPhone")
                 }
                 
                 
