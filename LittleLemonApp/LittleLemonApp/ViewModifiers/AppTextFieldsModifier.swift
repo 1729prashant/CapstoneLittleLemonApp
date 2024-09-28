@@ -21,3 +21,20 @@ struct AppTextFieldsModifier: ViewModifier {
     }
     
 }
+
+
+struct AppTextFieldsModifierUP: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .textInputAutocapitalization(.never)
+            .disableAutocorrection(true)
+            .padding(12.0)
+            .background(Color(.white))
+            .cornerRadius(8)
+            .frame(maxWidth: 352, alignment: .leading)
+            .overlay(
+                RoundedRectangle(cornerRadius: 8)
+                    .stroke(Color.highlightColor2, lineWidth: 1)
+            )
+    }
+}
