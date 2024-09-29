@@ -2,7 +2,7 @@
 
 \* Xcode project is in folder **LittleLemonApp**  
 \* Figma wireframe is **LittleLemon-Capstone-Wireframe.fig**  
-\* There are issues with the images in ht location specified by Coursera, some images may not render in app yet  
+\* There are issues with the images in the URL provided by Coursera, some images may not render in app yet  
 \* You will need a Mac with Xcode 16 or above to import the project  
 \* You will need the simulator installed  
 \* Profile picture change logic is TBD  
