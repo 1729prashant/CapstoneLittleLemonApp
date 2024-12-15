@@ -10,3 +10,7 @@
 \* UI/UX may change post Capstone requirements  
 \* Learn what you can  
 \* Aim is to use SwiftUI and make updates along the way  
+
+
+
+If you'd like to contribute, please fork the repository and open a pull request to the `main` branch.
