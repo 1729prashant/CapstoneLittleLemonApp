@@ -1,4 +1,4 @@
-### iOS App prototype based on Coursera Capstone project, using SwiftUI
+### iOS App prototype using SwiftUI
 
 \* Xcode project is in folder **LittleLemonApp**  
 \* Figma wireframe is **LittleLemon-Capstone-Wireframe.fig**  
