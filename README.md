@@ -1,4 +1,4 @@
-### iOS App prototype using SwiftUI
+## iOS App prototype using SwiftUI
 
 \* Xcode project is in folder **LittleLemonApp**  
 \* Figma wireframe is **LittleLemon-Capstone-Wireframe.fig**  
@@ -12,5 +12,5 @@
 \* Aim is to use SwiftUI and make updates along the way  
 
 
-
+## Contributing
 If you'd like to contribute, please fork the repository and open a pull request to the `main` branch.
